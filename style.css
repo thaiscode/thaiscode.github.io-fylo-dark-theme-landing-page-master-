@@ -1,0 +1,288 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	max-width: 1440px;
+	color: hsl(0, 0%, 100%);
+	background: hsl(217, 28%, 15%);
+}
+
+h1, h5 {
+	font-family: Raleway;
+	font-weight: 700;
+}
+
+p {
+	font-family: Open sans;
+	font-weight: 400;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px;
+	font-family: Raleway;
+	font-weight: 400;
+	background: hsl(217, 28%, 15%);
+
+}
+
+footer {
+	background: hsl(216, 53%, 9%);
+	height: 400px;
+}
+
+li {
+	display: inline;
+	margin-right: 50px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: hsl(0, 0%, 100%);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.img-link {
+	width: 12px;
+	height: 12px;
+	padding-left: 5px;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+}
+
+.introducao img {
+	height: 50%;
+	width: 50%;
+}
+
+.introducao {
+	align-items: center;
+	text-align: center;
+	background: url(./images/bg-curvy-desktop.svg) no-repeat center bottom hsl(217, 28%, 15%);
+}
+
+.introducao h1 {
+	margin: 15px 0 30px 0;
+	padding: 0 320px 0 320px;
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+
+.introducao p {
+	margin: 15px 0 15px 0;
+	padding: 0 400px 0 400px;
+	font-size: 1.1rem;
+	text-align: center;
+	letter-spacing: 0.3px;
+}
+
+.introducao button {
+	border: none;
+	border-radius: 20px;
+	background: linear-gradient(to right, hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
+	color: hsl(0, 0%, 100%);
+	width: 230px;
+	height: 45px;
+	margin: 20px 0 0 0;
+}
+
+.introducao button:hover {
+	background: hsl(176, 68%, 64%);
+}
+
+.descricao {
+	display: flex;
+	height: 600px;
+	padding-top: 150px;
+	padding-bottom: 80px; 
+	padding-left: 200px;
+	padding-right: 200px;
+	align-items: center;
+	text-align: center;
+	background: hsl(218, 28%, 13%);
+}
+
+.descricao h1 {
+	padding: 20px;
+}
+
+.descricao p {
+	padding: 0 50px;
+	padding-bottom: 100px;
+	line-height: 20px;
+}
+
+.coluna1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.coluna2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.produtivo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 100px;
+	background: hsl(218, 28%, 13%);
+}
+
+.conteudo {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+}
+
+.conteudo h1 {
+	text-align: left;
+	margin-bottom: 20px;
+	padding-right: 150px;
+	font-size: 2rem;
+}
+
+.conteudo p {
+	padding-bottom: 20px;
+}
+
+.conteudo a {
+	text-decoration: underline;
+	color: hsl(176, 68%, 64%);
+	font-family: Open sans;
+}
+
+.conteudo a:hover {
+	color: hsl(0, 0%, 100%);
+}
+
+.depoimentos {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	background: url(./images/bg-quotes.png) no-repeat 8% 36% hsl(218, 28%, 13%);
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	background: hsl(219, 30%, 18%);
+	margin: 20px;
+	box-shadow: 8px 8px hsl(217, 28%, 15%);
+}
+
+.texto-depoimento {
+	display: flex;
+	flex-direction: column;
+	padding-top: 35px; 
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 20px;
+}
+
+.perfil {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 20px;
+}
+
+.imagem-perfil {
+	display: flex;
+	flex-direction: row;
+}
+.imagem-perfil img{
+	width: 32px;
+	height: 32px;
+	object-fit: cover;
+	position: center;
+	border-radius: 100px;
+}
+
+.descricao-perfil {
+	display: flex;
+	flex-direction: column;
+	font-size: 60%;
+	letter-spacing: 0.5px;
+	padding-left: 10px;
+}
+
+.acesso-antecipado {
+	background: hsl(218, 28%, 13%);
+}
+
+.card-acesso {
+	width: 800px;
+	height: 200px;
+	text-align: center;
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 35px;
+	background: hsl(217, 28%, 15%);
+	position: relative;
+	top: 120px;
+	border-radius: 8px;
+	box-shadow: 5px 5px hsl(0,0%,0%,0.25);
+
+}
+
+.card-acesso h1 {
+	font-size: 1.5rem;
+	padding: 30px;
+	padding-bottom: 15px;
+}
+
+.card-acesso p {
+	font-size: 90%;
+	padding-bottom: 15px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+form {
+	margin: 0 0px;
+}
+
+input {
+	color: gray;
+	background-color: #fff;
+	border: none;
+	margin-right: 20px;
+	padding-left: 30px;
+	width: 400px;
+	height: 45px;
+	border-radius: 20px ;
+}
+
+.card-acesso button {
+	border: none;
+	border-radius: 20px;
+	background: linear-gradient(to right, hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
+	color: hsl(0, 0%, 100%);
+	width: 170px;
+	height: 45px;
+	margin: 20px 0 0 0;
+}
+
+.card-acesso button:hover {
+	background: hsl(176, 68%, 64%);
+}
