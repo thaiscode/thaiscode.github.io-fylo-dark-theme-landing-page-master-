@@ -15,7 +15,7 @@ h1, h5 {
 	font-weight: 700;
 }
 
-p {
+p, a {
 	font-family: Open sans;
 	font-weight: 400;
 }
@@ -28,17 +28,6 @@ header {
 	font-family: Raleway;
 	font-weight: 400;
 	background: hsl(217, 28%, 15%);
-
-}
-
-footer {
-	background: hsl(216, 53%, 9%);
-	height: 400px;
-}
-
-li {
-	display: inline;
-	margin-right: 50px;
 }
 
 ul {
@@ -50,9 +39,6 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	text-decoration: underline;
-}
 .img-link {
 	width: 12px;
 	height: 12px;
@@ -62,6 +48,15 @@ a:hover {
 .navbar {
 	display: flex;
 	flex-direction: row;
+}
+
+.navbar li {
+	display: inline;
+	margin-right: 50px;
+}
+
+.navbar a:hover {
+	text-decoration: underline;
 }
 
 .introducao img {
@@ -286,3 +281,120 @@ input {
 .card-acesso button:hover {
 	background: hsl(176, 68%, 64%);
 }
+
+footer {
+	display: flex;
+	background: hsl(216, 53%, 9%);
+	height: 450px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	height: 450px;
+	align-items: center;
+}
+
+.loc {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding-top: 10px;
+	padding-left: 70px;
+	width: 350px;
+}
+
+.localizacao {
+	display: flex;
+	flex-direction: row;
+}
+
+.logo-footer {
+	width: 50%;
+	padding-bottom: 50px;
+}
+
+#icone-loc {
+	display: flex;
+	flex-direction: row;
+	padding-right: 15px;
+	padding-top: 5px;
+	height: 16px;
+}
+
+.localizacao-descricao {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+}
+
+.contato {
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+}
+
+.box-contato {
+	display: flex;
+	flex-direction: row;
+	padding-top: 170px;
+	padding-left: 50px;
+}
+
+.contato-icone {
+	display: flex;
+	flex-direction: column;
+	padding-right: 15px;
+	
+}
+
+.contato-icone img {
+	padding-bottom: 8px;
+	padding-top: 9px;
+}
+
+.contato-descricao {
+	display: flex;
+	flex-direction: column;
+	line-height: 33px;
+}
+
+.box-menu {
+	display: flex;
+	flex-direction: row;
+	padding-top: 70px;
+	padding-left: 130px;
+}
+
+.menu-inferior {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 100px;
+	line-height: 30px;
+}
+
+.coluna-um {
+	padding-right: 70px;
+}
+
+.menu-inferior a:hover {
+	font-weight: 700;
+}
+
+.social {
+	display: flex;
+	flex-direction: row;
+	padding-left: 100px;
+	padding-top: 70px;
+}
+
+.social ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.social li {
+	padding-left: 20px;
+}
+
