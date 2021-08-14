@@ -65,9 +65,10 @@ a {
 }
 
 .introducao {
-	align-items: center;
+	
 	text-align: center;
 	background: url(./images/bg-curvy-desktop.svg) no-repeat center bottom hsl(217, 28%, 15%);
+	margin: auto;
 }
 
 .introducao h1 {
@@ -101,34 +102,47 @@ a {
 
 .descricao {
 	display: flex;
-	height: 600px;
-	padding-top: 150px;
-	padding-bottom: 80px; 
-	padding-left: 200px;
-	padding-right: 200px;
-	align-items: center;
-	text-align: center;
-	background: hsl(218, 28%, 13%);
+    flex-direction: column;
+    height: 500px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    align-items: center;
+    text-align: center;
+    background: hsl(218, 28%, 13%);
+    margin: auto;
 }
 
 .descricao h1 {
-	padding: 20px;
+	letter-spacing: 1px;
+	padding-top: 20px;
+	text-align: center;
 }
 
 .descricao p {
-	padding: 0 50px;
-	padding-bottom: 100px;
-	line-height: 20px;
+	padding-top: 10px;
+	padding-left: ;
+	padding-right: 1.5px;
+	letter-spacing: 0.5px;
+	line-height: 22px;
+	text-align: center;
 }
 
-.coluna1 {
+.linha1 {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	align-items: flex-end;
 }
 
-.coluna2 {
+.linha2 {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.card-descricao {
+	width: 390px;
+	height: auto;
+	padding: 40px 100px;
 }
 
 .produtivo {
@@ -286,6 +300,9 @@ footer {
 	display: flex;
 	background: hsl(216, 53%, 9%);
 	height: 450px;
+	margin: auto;
+	
+
 }
 
 .footer {
@@ -293,14 +310,14 @@ footer {
 	flex-direction: row;
 	height: 450px;
 	align-items: center;
+	margin: auto;
 }
 
 .loc {
 	display: flex;
 	flex-direction: column;
-	margin: 0;
 	padding-top: 10px;
-	padding-left: 70px;
+	/*padding-left: 70px;*/
 	width: 350px;
 }
 
@@ -332,13 +349,13 @@ footer {
 	display: flex;
 	flex-direction: column;
 	height: 300px;
+	margin-left: 100px;
 }
 
 .box-contato {
 	display: flex;
 	flex-direction: row;
-	padding-top: 170px;
-	padding-left: 50px;
+	margin-top: 170px;
 }
 
 .contato-icone {
@@ -359,23 +376,28 @@ footer {
 	line-height: 33px;
 }
 
-.box-menu {
-	display: flex;
-	flex-direction: row;
-	padding-top: 70px;
-	padding-left: 130px;
-}
-
 .menu-inferior {
 	display: flex;
 	flex-direction: column;
-	width: 300px;
-	height: 100px;
+	width: 220px;
+	height: auto;
 	line-height: 30px;
+	margin-left: 180px;
+	margin-top: 170px;
+}
+
+.box-menu {
+	display: flex;
+	flex-direction: row;
+	width: 200px;
 }
 
 .coluna-um {
-	padding-right: 70px;
+	width: 100px;
+}
+
+.coluna-dois {
+	width: 100px;
 }
 
 .menu-inferior a:hover {
@@ -385,8 +407,8 @@ footer {
 .social {
 	display: flex;
 	flex-direction: row;
-	padding-left: 100px;
-	padding-top: 70px;
+	margin-left: 80px;
+	margin-top: 70px;
 }
 
 .social ul {
@@ -397,4 +419,5 @@ footer {
 .social li {
 	padding-left: 20px;
 }
+
 
